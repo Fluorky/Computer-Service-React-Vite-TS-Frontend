@@ -8,7 +8,7 @@ This project is a TypeScript version of the Computer Service App frontend, built
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
@@ -41,7 +41,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 4. **Start the development server:**
 
-### `npm start`
+### `npm run dev`
 
 ## Project Information
 This project is a frontend application for a computer service system. Example backend here https://github.com/Fluorky/Computer-Service-Django-Api. It includes functionalities for managing customers, service requests, service technicians, and parts.
