@@ -52,7 +52,9 @@ This TypeScript project is based on an earlier version developed using React and
 The TypeScript version aims to improve type safety and developer experience by leveraging TypeScript's features. Key improvements and changes in this version include:
 
 **Type Safety:** TypeScript provides static type checking at compile time, which helps catch errors early in the development process.
+
 **Improved Developer Experience:** With TypeScript, developers get better autocompletion, navigation, and refactoring capabilities in their IDEs.
+
 **Modern Build Tool:** Vite offers a faster and more efficient development server with hot module replacement (HMR), making the development process smoother.
 
 ## Previous Version
