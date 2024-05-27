@@ -164,7 +164,9 @@ function ServiceRequestCrud() {
       (Object.keys(newServiceRequest) as (keyof ServiceRequest)[]).forEach((key) => {
         formData.append(key, newServiceRequest[key].toString());
       });
-  
+      for (var pair of formData.entries()) {
+        console.log(pair[0]+ ', ' + pair[1]); 
+    }
       const response = await fetch('http://127.0.0.1:8000/api/service-requests/', {
         method: 'POST',
         headers: {

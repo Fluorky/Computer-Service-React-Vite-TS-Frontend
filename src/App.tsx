@@ -9,6 +9,7 @@ import ServiceRequestCrud from './pages/ServiceRequestCrud';
 import ServiceTechnicianCrud from './pages/ServiceTechnicianCrud';
 import PartCrud from './pages/PartCrud';
 import './App.css';
+import InvoiceCrud from './pages/InvoiceCrud';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/customerlist" element={<CustomerList />} />
         <Route path="/customercrud" element={<CustomerCrud />} />
         <Route path="/servicerequestcrud" element={<ServiceRequestCrud />} />
+        <Route path="invoicecrud" element={<InvoiceCrud />} />
         <Route path="/servicetechniciancrud" element={<ServiceTechnicianCrud />} />
         <Route path="/partcrud" element={<PartCrud />} />
         <Route path="/login" element={<Login />} />
