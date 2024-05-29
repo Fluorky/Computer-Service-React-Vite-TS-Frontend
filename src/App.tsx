@@ -10,18 +10,22 @@ import ServiceTechnicianCrud from './pages/ServiceTechnicianCrud';
 import PartCrud from './pages/PartCrud';
 import './App.css';
 import InvoiceCrud from './pages/InvoiceCrud';
+import AddressCrud from './pages/AddressCrud';
+import SupplierCrud from './pages/SupplierCrud';
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/addresscrud" element={<AddressCrud />} />
         <Route path="/customerlist" element={<CustomerList />} />
         <Route path="/customercrud" element={<CustomerCrud />} />
         <Route path="/servicerequestcrud" element={<ServiceRequestCrud />} />
         <Route path="invoicecrud" element={<InvoiceCrud />} />
         <Route path="/servicetechniciancrud" element={<ServiceTechnicianCrud />} />
         <Route path="/partcrud" element={<PartCrud />} />
+        <Route path="/suppliercrud" element={<SupplierCrud />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
       </Routes>
